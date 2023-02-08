@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+}
+.maincontainer{
+    width: 100vw;
+    height: 100vh;
+    border: red solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headersec{
+    width: 100%;
+    height: 15%;
+    border: black solid 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.header{
+    width: 100%;
+    height: 15%;
+    /* border: red solid; */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.logo{
+    width:4%;
+    height:50%;
+    /* border: red solid; */
+    margin-bottom: 15px;
+}
+.head1{
+    width: 20%;
+    height: 20%;
+    color: green;
+    font-size: 1.2em;
+    font-weight: bold;
+    position: relative;
+    left:80px;
+    top: -45px;
+    /* margin-bottom: 25px; */
+}
+.headline{
+    width: 50%;
+    height: 30%;
+   /* border: red solid;  */
+   margin-bottom: 25px;
+   font-size: 1em;
+   color: #0000EE ;
+}
+.register{
+    width: 60%;
+    height: 90%;
+    border: black solid 1px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    align-items: flex-start;
+}
+input{
+    
+}
